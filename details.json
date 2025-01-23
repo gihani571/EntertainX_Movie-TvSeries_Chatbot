@@ -1,0 +1,484 @@
+{
+    "movies": [
+      {
+        "title": "Parasite",
+        "year": 2019,
+        "quality": "HD",
+        "duration": 132,
+        "rating": 8.6,
+        "language": "Korean",
+        "trailer": "https://www.youtube.com/watch?v=5xH0HfJHsaY",
+        "poster": "./assets/images/movie-1.png"
+      },
+      {
+        "title": "The Batman",
+        "year": 2022,
+        "quality": "4K",
+        "duration": 176,
+        "rating": 7.9,
+        "language": "English",
+        "trailer": "https://www.youtube.com/watch?v=mqqft2x_Aa4",
+        "poster": "./assets/images/movie-2.png"
+      },
+      {
+        "title": "Train to Busan",
+        "year": 2016,
+        "quality": "HD",
+        "duration": 118,
+        "rating": 7.6,
+        "language": "Korean",
+        "trailer": "https://www.youtube.com/watch?v=pyWuHv2-Abk",
+        "poster": "./assets/images/movie-3.png"
+      },
+      {
+        "title": "Crouching Tiger, Hidden Dragon",
+        "year": 2000,
+        "quality": "4K",
+        "duration": 120,
+        "rating": 7.8,
+        "language": "Chinese",
+        "trailer": "https://www.youtube.com/watch?v=iv_ed5VmoD8",
+        "poster": "./assets/images/movie-4.png"
+      },
+      {
+        "title": "Interstellar",
+        "year": 2014,
+        "quality": "4K",
+        "duration": 169,
+        "rating": 8.6,
+        "language": "English",
+        "trailer": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+        "poster": "./assets/images/movie-5.png"
+      },
+      {
+        "title": "The Wandering Earth",
+        "year": 2019,
+        "quality": "HD",
+        "duration": 125,
+        "rating": 6.0,
+        "language": "Chinese",
+        "trailer": "https://www.youtube.com/watch?v=V4Zj1fnGC2s",
+        "poster": "./assets/images/movie-6.png"
+      },
+      {
+        "title": "Minari",
+        "year": 2020,
+        "quality": "HD",
+        "duration": 115,
+        "rating": 7.5,
+        "language": "Korean",
+        "trailer": "https://www.youtube.com/watch?v=KQ0gFidlro8",
+        "poster": "./assets/images/movie-7.png"
+      },
+      {
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "quality": "4K",
+        "duration": 181,
+        "rating": 8.4,
+        "language": "English",
+        "trailer": "https://www.youtube.com/watch?v=TcMBFSGVi1c",
+        "poster": "./assets/images/movie-8.png"
+      },
+      {
+        "title": "Dangal",
+        "year": 2016,
+        "quality": "HD",
+        "duration": 161,
+        "rating": 8.4,
+        "language": "Hindi",
+        "trailer": "https://www.youtube.com/watch?v=x_7YlGv9u1g",
+        "poster": "./assets/images/movie-9.png"
+      },
+      {
+        "title": "The Great Wall",
+        "year": 2016,
+        "quality": "HD",
+        "duration": 103,
+        "rating": 6.0,
+        "language": "Chinese",
+        "trailer": "https://www.youtube.com/watch?v=avF6GHyyk5c",
+        "poster": "./assets/images/movie-10.png"
+      },
+      {
+        "title": "Inception",
+        "year": 2010,
+        "quality": "4K",
+        "duration": 148,
+        "rating": 8.8,
+        "language": "English",
+        "trailer": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+        "poster": "./assets/images/movie-11.png"
+      },
+      {
+        "title": "The Host",
+        "year": 2006,
+        "quality": "HD",
+        "duration": 120,
+        "rating": 7.1,
+        "language": "Korean",
+        "trailer": "https://www.youtube.com/watch?v=1HRTy26s4hw",
+        "poster": "./assets/images/movie-12.png"
+      },
+      {
+        "title": "The Farewell",
+        "year": 2019,
+        "quality": "HD",
+        "duration": 100,
+        "rating": 7.6,
+        "language": "Chinese",
+        "trailer": "https://www.youtube.com/watch?v=RofpAjqwMa8",
+        "poster": "./assets/images/movie-13.png"
+      },
+      {
+        "title": "Your Name",
+        "year": 2016,
+        "quality": "HD",
+        "duration": 106,
+        "rating": 8.4,
+        "language": "Japanese",
+        "trailer": "https://www.youtube.com/watch?v=xU47nhruN-Q",
+        "poster": "./assets/images/movie-14.png"
+      },
+      {
+        "title": "Soul",
+        "year": 2020,
+        "quality": "HD",
+        "duration": 100,
+        "rating": 8.1,
+        "language": "English",
+        "trailer": "https://www.youtube.com/watch?v=xOsLIiBStEs",
+        "poster": "./assets/images/movie-15.png"
+      },
+      {
+        "title": "Seven Samurai",
+        "year": 1954,
+        "quality": "4K",
+        "duration": 207,
+        "rating": 8.6,
+        "language": "Japanese",
+        "trailer": "https://www.youtube.com/watch?v=7mw6LyyoeGE",
+        "poster": "./assets/images/movie-16.png"
+      },
+      {
+        "title": "Oldboy",
+        "year": 2003,
+        "quality": "HD",
+        "duration": 120,
+        "rating": 8.4,
+        "language": "Korean",
+        "trailer": "https://www.youtube.com/watch?v=2HkjrJ6IK5E",
+        "poster": "./assets/images/movie-17.png"
+      },
+      {
+        "title": "The Matrix",
+        "year": 1999,
+        "quality": "4K",
+        "duration": 136,
+        "rating": 8.7,
+        "language": "English",
+        "trailer": "https://www.youtube.com/watch?v=vKQi3bBA1y8",
+        "poster": "./assets/images/movie-18.png"
+      },
+      {
+        "title": "Hero",
+        "year": 2002,
+        "quality": "HD",
+        "duration": 99,
+        "rating": 7.9,
+        "language": "Chinese",
+        "trailer": "https://www.youtube.com/watch?v=hTFmomc1UBc",
+        "poster": "./assets/images/movie-19.png"
+      },
+      {
+        "title": "Slumdog Millionaire",
+        "year": 2008,
+        "quality": "HD",
+        "duration": 120,
+        "rating": 8.0,
+        "language": "English/Hindi",
+        "trailer": "https://www.youtube.com/watch?v=AIzbwV7on6Q",
+        "poster": "./assets/images/movie-20.png"
+      },
+      {
+        "title": "Spirited Away",
+        "year": 2001,
+        "quality": "HD",
+        "duration": 125,
+        "rating": 8.6,
+        "language": "Japanese",
+        "trailer": "https://www.youtube.com/watch?v=ByXuk9QqQkk",
+        "poster": "./assets/images/movie-21.png"
+      },
+      {
+        "title": "The Dark Knight",
+        "year": 2008,
+        "quality": "4K",
+        "duration": 152,
+        "rating": 9.0,
+        "language": "English",
+        "trailer": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+        "poster": "./assets/images/movie-22.png"
+      },
+      {
+        "title": "1917",
+        "year": 2019,
+        "quality": "4K",
+        "duration": 119,
+        "rating": 8.3,
+        "language": "English",
+        "trailer": "https://www.youtube.com/watch?v=YqNYrYUiMfg",
+        "poster": "./assets/images/movie-23.png"
+      },
+      {
+        "title": "Life of Pi",
+        "year": 2012,
+        "quality": "HD",
+        "duration": 127,
+        "rating": 7.9,
+        "language": "English",
+        "trailer": "https://www.youtube.com/watch?v=j9Hjrs6WQ8M",
+        "poster": "./assets/images/movie-24.png"
+      },
+      {
+        "title": "Snowpiercer",
+        "year": 2013,
+        "quality": "HD",
+        "duration": 126,
+        "rating": 7.1,
+        "language": "Korean/English",
+        "trailer": "https://www.youtube.com/watch?v=nX5PwfEMBM0",
+        "poster": "./assets/images/movie-25.png"
+      }
+    ],
+    "tvSeries": [
+        {
+                "title": "Squid Game",
+                "year": 2021,
+                "quality": "4K",
+                "rating": 8.1,
+                "language": "Korean",
+                "trailer": "https://www.youtube.com/watch?v=oqxAJKy0ii4",
+                "poster": "./assets/images/series-1.png"
+              },
+              {
+                "title": "Breaking Bad",
+                "year": 2008,
+                "quality": "4K",
+                "rating": 9.5,
+                "language": "English",
+                "trailer": "https://www.youtube.com/watch?v=HhesaQXLuRY",
+                "poster": "./assets/images/series-2.png"
+              },
+              {
+                "title": "Game of Thrones",
+                "year": 2011,
+                "quality": "4K",
+                "rating": 9.2,
+                "language": "English",
+                "trailer": "https://www.youtube.com/watch?v=KPLWWIOCOOQ",
+                "poster": "./assets/images/series-3.png"
+              },
+              {
+                "title": "Stranger Things",
+                "year": 2016,
+                "quality": "4K",
+                "rating": 8.7,
+                "language": "English",
+                "trailer": "https://www.youtube.com/watch?v=b9EkMc79ZSU",
+                "poster": "./assets/images/series-4.png"
+              },
+              {
+                "title": "Kingdom",
+                "year": 2019,
+                "quality": "HD",
+                "rating": 8.4,
+                "language": "Korean",
+                "trailer": "https://www.youtube.com/watch?v=4l-yByZpaaM",
+                "poster": "./assets/images/series-5.png"
+              },
+              {
+                "title": "The Witcher",
+                "year": 2019,
+                "quality": "4K",
+                "rating": 8.2,
+                "language": "English",
+                "trailer": "https://www.youtube.com/watch?v=ndl1W4ltcmg",
+                "poster": "./assets/images/series-6.png"
+              },
+              {
+                "title": "Money Heist",
+                "year": 2017,
+                "quality": "4K",
+                "rating": 8.2,
+                "language": "Spanish",
+                "trailer": "https://www.youtube.com/watch?v=_InqQJRqGW4",
+                "poster": "./assets/images/series-7.png"
+              },
+              {
+                "title": "Narcos",
+                "year": 2015,
+                "quality": "HD",
+                "rating": 8.8,
+                "language": "English/Spanish",
+                "trailer": "https://www.youtube.com/watch?v=xl8zdCY-abw",
+                "poster": "./assets/images/series-8.png"
+              },
+              {
+                "title": "WandaVision",
+                "year": 2021,
+                "quality": "4K",
+                "rating": 7.9,
+                "language": "English",
+                "trailer": "https://www.youtube.com/watch?v=sj9J2ecsSpo",
+                "poster": "./assets/images/series-9.png"
+              },
+              {
+                "title": "The Mandalorian",
+                "year": 2019,
+                "quality": "4K",
+                "rating": 8.7,
+                "language": "English",
+                "trailer": "https://www.youtube.com/watch?v=aOC8E8z_ifw",
+                "poster": "./assets/images/series-10.png"
+              },
+              {
+                "title": "Dark",
+                "year": 2017,
+                "quality": "HD",
+                "rating": 8.8,
+                "language": "German",
+                "trailer": "https://www.youtube.com/watch?v=rrwycJ08PSA",
+                "poster": "./assets/images/series-11.png"
+              },
+              {
+                "title": "The Crown",
+                "year": 2016,
+                "quality": "4K",
+                "rating": 8.6,
+                "language": "English",
+                "trailer": "https://www.youtube.com/watch?v=JWtnJjn6ng0",
+                "poster": "./assets/images/series-12.png"
+              },
+              {
+                "title": "Mr. Robot",
+                "year": 2015,
+                "quality": "HD",
+                "rating": 8.5,
+                "language": "English",
+                "trailer": "https://www.youtube.com/watch?v=U94litUpZuc",
+                "poster": "./assets/images/series-13.png"
+              },
+              {
+                "title": "Vincenzo",
+                "year": 2021,
+                "quality": "HD",
+                "rating": 8.4,
+                "language": "Korean",
+                "trailer": "https://www.youtube.com/watch?v=_j9HJBEp8X8",
+                "poster": "./assets/images/series-14.png"
+              },
+              {
+                "title": "Peaky Blinders",
+                "year": 2013,
+                "quality": "4K",
+                "rating": 8.8,
+                "language": "English",
+                "trailer": "https://www.youtube.com/watch?v=oVzVdvGIC7U",
+                "poster": "./assets/images/series-15.png"
+              },
+              {
+                "title": "Hospital Playlist",
+                "year": 2020,
+                "quality": "HD",
+                "rating": 8.8,
+                "language": "Korean",
+                "trailer": "https://www.youtube.com/watch?v=85EsRpdQjrA",
+                "poster": "./assets/images/series-16.png"
+              },
+              {
+                "title": "The Boys",
+                "year": 2019,
+                "quality": "4K",
+                "rating": 8.7,
+                "language": "English",
+                "trailer": "https://www.youtube.com/watch?v=06rueu_fh30",
+                "poster": "./assets/images/series-17.png"
+              },
+              {
+                "title": "My Mister",
+                "year": 2018,
+                "quality": "HD",
+                "rating": 9.1,
+                "language": "Korean",
+                "trailer": "https://www.youtube.com/watch?v=-3LUkj3LDfI",
+                "poster": "./assets/images/series-18.png"
+              },
+              {
+                "title": "The Office",
+                "year": 2005,
+                "quality": "HD",
+                "rating": 9.0,
+                "language": "English",
+                "trailer": "https://www.youtube.com/watch?v=JUSJ4NihbWU",
+                "poster": "./assets/images/series-19.png"
+              },
+              {
+                "title": "Extraordinary Attorney Woo",
+                "year": 2022,
+                "quality": "HD",
+                "rating": 8.9,
+                "language": "Korean",
+                "trailer": "https://www.youtube.com/watch?v=skfsJ2F48Ho",
+                "poster": "./assets/images/series-20.png"
+              },
+              {
+                "title": "Loki",
+                "year": 2021,
+                "quality": "4K",
+                "rating": 8.2,
+                "language": "English",
+                "trailer": "https://www.youtube.com/watch?v=nW948Va-l10",
+                "poster": "./assets/images/series-21.png"
+              },
+              {
+                "title": "Chernobyl",
+                "year": 2019,
+                "quality": "4K",
+                "rating": 9.4,
+                "language": "English",
+                "trailer": "https://www.youtube.com/watch?v=s9APLXM9Ei8",
+                "poster": "./assets/images/series-22.png"
+              },
+              {
+                "title": "Crash Landing on You",
+                "year": 2019,
+                "quality": "HD",
+                "rating": 8.7,
+                "language": "Korean",
+                "trailer": "https://www.youtube.com/watch?v=zp5a1tPuj70",
+                "poster": "./assets/images/series-23.png"
+              },
+              {
+                "title": "The Walking Dead",
+                "year": 2010,
+                "quality": "HD",
+                "rating": 8.1,
+                "language": "English",
+                "trailer": "https://www.youtube.com/watch?v=R1v0uFms68U",
+                "poster": "./assets/images/series-24.png"
+              },
+              {
+                "title": "Better Call Saul",
+                "year": 2015,
+                "quality": "HD",
+                "rating": 8.9,
+                "language": "English",
+                "trailer": "https://www.youtube.com/watch?v=hnLYlkAB7EM",
+                "poster": "./assets/images/series-25.png"
+              }
+            ]
+          }
+          
+  
+  

@@ -212,23 +212,28 @@ TITLES & SUBTITLES
 
 .movies-list {
   display: grid;
-  gap: 50px;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns in a row */
 }
 
 .movie-card {
-  height: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background: #2c2c2c; /* Background color for the movie card */
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .movie-card .card-banner {
   position: relative;
   background: var(--gunmetal-1);
-  aspect-ratio: 2 / 3;
+  aspect-ratio: 3 / 4; /* Adjust the aspect ratio for smaller images */
   border-radius: 6px;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   transition: var(--transition-1);
 }
 
@@ -238,10 +243,6 @@ TITLES & SUBTITLES
   inset: 0;
   transition: var(--transition-1);
 }
-
-.movie-card .card-banner:hover { box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.5); }
-
-.movie-card .card-banner:hover::after { background: hsla(0, 0%, 100%, 0.05); }
 
 .movie-card .card-banner img {
   width: 100%;
@@ -297,6 +298,7 @@ TITLES & SUBTITLES
   color: var(--citrine);
 }
 
+
 /**
  * CUSTOM SLIDER & SCROLLBAR
  */
@@ -341,6 +343,7 @@ TITLES & SUBTITLES
   padding-block: 25px;
   transition: var(--transition-2);
   z-index: 4;
+  background-color: black;
 }
 
 .header.active {
@@ -468,7 +471,7 @@ TITLES & SUBTITLES
 .hero-content { margin-top: 60px; }
 
 .hero-subtitle {
-  color: var(--citrine);
+  color: var(--white);
   font-size: var(--fs-4);
   font-weight: var(--fw-700);
   margin-bottom: 10px;
@@ -692,68 +695,6 @@ TITLES & SUBTITLES
 }
 
 .tv-series .section-title { margin-bottom: 50px; }
-
-
-
-
-
-/*-----------------------------------*\
- * #CTA
-\*-----------------------------------*/
-
-.cta {
-  background: url("../images/cta-bg.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  padding-block: 50px;
-}
-
-.cta .title-wrapper { margin-bottom: 25px; }
-
-.cta-title {
-  color: var(--eerie-black);
-  font-size: var(--fs-3);
-  text-transform: uppercase;
-  line-height: 1.2;
-  margin-bottom: 5px;
-}
-
-.cta-text {
-  color: var(--eerie-black);
-  font-size: var(--fs-9);
-  font-weight: var(--fw-500);
-  line-height: 1.8;
-}
-
-.cta .email-field {
-  color: var(--eerie-black);
-  font-size: var(--fs-9);
-  padding: 18px 32px;
-  border-radius: 4px;
-  box-shadow: 0 3px 4px hsla(0, 0%, 0%, 0.2);
-  margin-bottom: 15px;
-}
-
-.cta-form-btn {
-  background: var(--eerie-black);
-  color: var(--citrine);
-  font-size: var(--fs-9);
-  font-weight: var(--fw-700);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border: 2px solid var(--eerie-black);
-  padding: 15px 34px;
-  border-radius: 4px;
-  margin-inline: auto;
-  transition: var(--transition-1);
-}
-
-.cta-form-btn:is(:hover, :focus) {
-  background: var(--citrine);
-  color: var(--eerie-black);
-}
-
 
 
 
@@ -1203,24 +1144,7 @@ TITLES & SUBTITLES
 
 
 
-  /**
-   * CTA
-   */
 
-  .cta-form {
-    position: relative;
-    max-width: 530px;
-    margin-inline: auto;
-  }
-
-  .cta .email-field { margin-bottom: 0; }
-
-  .cta-form-btn {
-    position: absolute;
-    top: 2px;
-    right: 2px;
-    bottom: 2px;
-  }
 
 
 
@@ -1228,10 +1152,9 @@ TITLES & SUBTITLES
    * FOOTER
    */
 
-  .footer-brand-wrapper .logo { margin: 0; }
+ 
 
-  .footer-brand-wrapper,
-  .quicklink-wrapper,
+ 
   .footer-bottom .container {
     display: flex;
     justify-content: space-between;
@@ -1373,31 +1296,6 @@ TITLES & SUBTITLES
 
 
   /**
-   * CTA
-   */
-
-  .cta { text-align: left; }
-
-  .cta .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .cta .title-wrapper {
-    margin-bottom: 0;
-    width: 100%;
-  }
-
-  .cta-form {
-    margin-inline: 0;
-    max-width: unset;
-    width: 100%;
-  }
-
-
-
-  /**
    * MOVIE DETAIL
    */
 
@@ -1502,13 +1400,6 @@ TITLES & SUBTITLES
   .service-list,
   .service-title { max-width: 480px; }
 
-
-
-  /**
-   * CTA
-   */
-
-  .cta .container { max-width: 1150px; }
 
 
 
