@@ -1,196 +1,315 @@
-{
-  "movies": [
-    {
-      "title": "Parasite",
-      "year": 2019,
-      "quality": "HD",
-      "duration": 132,
-      "rating": 8.6,
-      "language": "Korean",
-      "trailer": "https://www.youtube.com/watch?v=5xH0HfJHsaY",
-      "poster": "./assets/images/movie-1.png",
-      "storyline": "A poor family schemes to become employed by a wealthy family and infiltrates their household."
+[
+  {
+    "title": "Free Guy",
+    "year": 2021,
+    "duration": "115 min",
+    "rating": 7.7,
+    "quality": "4K",
+    "image": "./assets/images/movie-4.png",
+    "details_page": "./movie-details.html",
+    "trailer": "https://www.youtube.com/watch?v=X2m-08cOAbc",
+    "category": "Movie",
+    "genres": ["Comedy", "Action", "Adventure", "Science Fiction"],
+    "storyline": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
+    "streaming": {
+      "platform": "Prime Video",
+      "type": "Streaming Channels"
     },
-    {
-      "title": "Inception",
-      "year": 2010,
-      "quality": "4K",
-      "duration": 148,
-      "rating": 8.8,
-      "language": "English",
-      "trailer": "https://www.youtube.com/watch?v=YoHD9XEInc0",
-      "poster": "./assets/images/movie-2.png",
-      "storyline": "A skilled thief, who steals secrets from within the subconscious, is given a chance to erase his criminal past by implanting an idea into a target's mind."
-    },
-    {
-      "title": "The Godfather",
-      "year": 1972,
-      "quality": "HD",
-      "duration": 175,
-      "rating": 9.2,
-      "language": "English",
-      "trailer": "https://www.youtube.com/watch?v=sY1S34973zA",
-      "poster": "./assets/images/movie-3.png",
-      "storyline": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
-    },
-    {
-      "title": "The Dark Knight",
-      "year": 2008,
-      "quality": "HD",
-      "duration": 152,
-      "rating": 9.0,
-      "language": "English",
-      "trailer": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
-      "poster": "./assets/images/movie-4.png",
-      "storyline": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham, challenging Batman's resolve."
-    },
-    {
-      "title": "Avatar",
-      "year": 2009,
-      "quality": "4K",
-      "duration": 162,
-      "rating": 7.8,
-      "language": "English",
-      "trailer": "https://www.youtube.com/watch?v=6ziBFh3V1aM",
-      "poster": "./assets/images/movie-5.png",
-      "storyline": "A paraplegic Marine is sent to the moon Pandora, where he becomes torn between following orders and protecting the world he feels is his home."
-    },
-    {
-      "title": "Interstellar",
-      "year": 2014,
-      "quality": "4K",
-      "duration": 169,
-      "rating": 8.6,
-      "language": "English",
-      "trailer": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
-      "poster": "./assets/images/movie-6.png",
-      "storyline": "A team of explorers travels through a wormhole in space in an attempt to ensure humanity's survival."
-    },
-    {
-      "title": "Joker",
-      "year": 2019,
-      "quality": "HD",
-      "duration": 122,
-      "rating": 8.4,
-      "language": "English",
-      "trailer": "https://www.youtube.com/watch?v=zAGVQLHvwOY",
-      "poster": "./assets/images/movie-7.png",
-      "storyline": "An aspiring comedian with mental health issues descends into madness and becomes the iconic villain known as the Joker."
-    },
-    {
-      "title": "Titanic",
-      "year": 1997,
-      "quality": "HD",
-      "duration": 195,
-      "rating": 7.9,
-      "language": "English",
-      "trailer": "https://www.youtube.com/watch?v=2e-eXJ6HgkQ",
-      "poster": "./assets/images/movie-8.png",
-      "storyline": "A young aristocrat falls in love with a kind but poor artist aboard the ill-fated Titanic."
-    },
-    {
-      "title": "Forrest Gump",
-      "year": 1994,
-      "quality": "HD",
-      "duration": 142,
-      "rating": 8.8,
-      "language": "English",
-      "trailer": "https://www.youtube.com/watch?v=bLvqoHBptjg",
-      "poster": "./assets/images/movie-9.png",
-      "storyline": "The life story of a simple man with extraordinary achievements who unknowingly shapes significant historical events."
+    "actions": {
+      "watch_now": true,
+      "download_link": "./assets/images/movie-4.png",
+      "share": true
     }
-  ],
-  "tvSeries": [
-    {
-      "title": "Squid Game",
-      "year": 2021,
-      "quality": "4K",
-      "rating": 8.1,
-      "language": "Korean",
-      "trailer": "https://www.youtube.com/watch?v=oqxAJKy0ii4",
-      "poster": "./assets/images/series-1.png",
-      "storyline": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games for a tempting prize, but the stakes are deadly."
+  },
+  {
+    "title": "Inception",
+    "year": 2010,
+    "duration": "148 min",
+    "rating": 8.8,
+    "quality": "HD",
+    "image": "./assets/images/inception.png",
+    "details_page": "./inception-details.html",
+    "trailer": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+    "category": "Movie",
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "storyline": "A thief who enters the dreams of others to steal secrets is given a task to implant an idea into someone's mind.",
+    "streaming": {
+      "platform": "Netflix",
+      "type": "Streaming Channels"
     },
-    {
-      "title": "Stranger Things",
-      "year": 2016,
-      "quality": "HD",
-      "rating": 8.7,
-      "language": "English",
-      "trailer": "https://www.youtube.com/watch?v=b9EkMc79ZSU",
-      "poster": "./assets/images/series-2.png",
-      "storyline": "A group of kids in a small town uncover government secrets and supernatural forces while searching for their missing friend."
-    },
-    {
-      "title": "Breaking Bad",
-      "year": 2008,
-      "quality": "HD",
-      "rating": 9.5,
-      "language": "English",
-      "trailer": "https://www.youtube.com/watch?v=HhesaQXLuRY",
-      "poster": "./assets/images/series-3.png",
-      "storyline": "A chemistry teacher turned methamphetamine producer partners with a former student to secure his family's future while battling personal and external conflicts."
-    },
-    {
-      "title": "Game of Thrones",
-      "year": 2011,
-      "quality": "4K",
-      "rating": 9.2,
-      "language": "English",
-      "trailer": "https://www.youtube.com/watch?v=KPLWWIOCOOQ",
-      "poster": "./assets/images/series-4.png",
-      "storyline": "Nine noble families wage war against each other in order to gain control over the mythical land of Westeros while an ancient enemy returns."
-    },
-    {
-      "title": "The Witcher",
-      "year": 2019,
-      "quality": "4K",
-      "rating": 8.2,
-      "language": "English",
-      "trailer": "https://www.youtube.com/watch?v=ndl1W4ltcmg",
-      "poster": "./assets/images/series-5.png",
-      "storyline": "Geralt of Rivia, a mutated monster hunter, struggles to find his place in a world where people often prove more wicked than beasts."
-    },
-    {
-      "title": "Peaky Blinders",
-      "year": 2013,
-      "quality": "HD",
-      "rating": 8.8,
-      "language": "English",
-      "trailer": "https://www.youtube.com/watch?v=oVzVdvGIC7U",
-      "poster": "./assets/images/series-6.png",
-      "storyline": "A gangster family epic set in Birmingham, England, during the aftermath of World War I, focusing on the rise of Tommy Shelby."
-    },
-    {
-      "title": "The Mandalorian",
-      "year": 2019,
-      "quality": "4K",
-      "rating": 8.7,
-      "language": "English",
-      "trailer": "https://www.youtube.com/watch?v=aOC8E8z_ifw",
-      "poster": "./assets/images/series-7.png",
-      "storyline": "A lone bounty hunter navigates the galaxy's outer reaches while protecting a mysterious child with extraordinary abilities."
-    },
-    {
-      "title": "The Crown",
-      "year": 2016,
-      "quality": "HD",
-      "rating": 8.7,
-      "language": "English",
-      "trailer": "https://www.youtube.com/watch?v=JWtnJjn6ng0",
-      "poster": "./assets/images/series-8.png",
-      "storyline": "A biographical story about the reign of Queen Elizabeth II, exploring political and personal events that shaped modern history."
-    },
-    {
-      "title": "The Boys",
-      "year": 2019,
-      "quality": "HD",
-      "rating": 8.7,
-      "language": "English",
-      "trailer": "https://www.youtube.com/watch?v=06rueu_fh30",
-      "poster": "./assets/images/series-9.png",
-      "storyline": "A group of vigilantes set out to expose corrupt superheroes who abuse their powers for personal gain."
+    "actions": {
+      "watch_now": true,
+      "download_link": "./assets/images/inception.png",
+      "share": true
     }
-  ]
-}
-
+  },
+  {
+    "title": "Interstellar",
+    "year": 2014,
+    "duration": "169 min",
+    "rating": 8.6,
+    "quality": "4K",
+    "image": "./assets/images/interstellar.png",
+    "details_page": "./interstellar-details.html",
+    "trailer": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "category": "Movie",
+    "genres": ["Adventure", "Drama", "Sci-Fi"],
+    "storyline": "A group of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "streaming": {
+      "platform": "HBO Max",
+      "type": "Streaming Channels"
+    },
+    "actions": {
+      "watch_now": true,
+      "download_link": "./assets/images/interstellar.png",
+      "share": true
+    }
+  },
+  {
+    "title": "The Dark Knight",
+    "year": 2008,
+    "duration": "152 min",
+    "rating": 9.0,
+    "quality": "HD",
+    "image": "./assets/images/dark-knight.png",
+    "details_page": "./dark-knight-details.html",
+    "trailer": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+    "category": "Movie",
+    "genres": ["Action", "Crime", "Drama"],
+    "storyline": "Batman faces off against the Joker, a criminal mastermind who seeks to create chaos in Gotham City.",
+    "streaming": {
+      "platform": "Amazon Prime",
+      "type": "Streaming Channels"
+    },
+    "actions": {
+      "watch_now": true,
+      "download_link": "./assets/images/dark-knight.png",
+      "share": true
+    }
+  },
+  {
+    "title": "Avengers: Endgame",
+    "year": 2019,
+    "duration": "181 min",
+    "rating": 8.4,
+    "quality": "4K",
+    "image": "./assets/images/endgame.png",
+    "details_page": "./endgame-details.html",
+    "trailer": "https://www.youtube.com/watch?v=TcMBFSGVi1c",
+    "category": "Movie",
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "storyline": "The remaining Avengers assemble for a final showdown against Thanos to restore balance to the universe.",
+    "streaming": {
+      "platform": "Disney+",
+      "type": "Streaming Channels"
+    },
+    "actions": {
+      "watch_now": true,
+      "download_link": "./assets/images/endgame.png",
+      "share": true
+    }
+  },
+  {
+    "title": "The Matrix",
+    "year": 1999,
+    "duration": "136 min",
+    "rating": 8.7,
+    "quality": "HD",
+    "image": "./assets/images/matrix.png",
+    "details_page": "./matrix-details.html",
+    "trailer": "https://www.youtube.com/watch?v=m8e-FF8MsqU",
+    "category": "Movie",
+    "genres": ["Action", "Sci-Fi"],
+    "storyline": "A computer hacker learns about the true nature of reality and his role in the war against its controllers.",
+    "streaming": {
+      "platform": "HBO Max",
+      "type": "Streaming Channels"
+    },
+    "actions": {
+      "watch_now": true,
+      "download_link": "./assets/images/matrix.png",
+      "share": true
+    }
+  },
+  {
+    "title": "Joker",
+    "year": 2019,
+    "duration": "122 min",
+    "rating": 8.4,
+    "quality": "HD",
+    "image": "./assets/images/joker.png",
+    "details_page": "./joker-details.html",
+    "trailer": "https://www.youtube.com/watch?v=zAGVQLHvwOY",
+    "category": "Movie",
+    "genres": ["Crime", "Drama", "Thriller"],
+    "storyline": "A mentally troubled comedian embarks on a downward spiral that leads to the rise of the Joker.",
+    "streaming": {
+      "platform": "Netflix",
+      "type": "Streaming Channels"
+    },
+    "actions": {
+      "watch_now": true,
+      "download_link": "./assets/images/joker.png",
+      "share": true
+    }
+  },
+  {
+    "title": "Spider-Man: No Way Home",
+    "year": 2021,
+    "duration": "148 min",
+    "rating": 8.2,
+    "quality": "4K",
+    "image": "./assets/images/spiderman.png",
+    "details_page": "./spiderman-details.html",
+    "trailer": "https://www.youtube.com/watch?v=JfVOs4VSpmA",
+    "category": "Movie",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "storyline": "Peter Parker seeks help from Doctor Strange to fix his identity crisis, leading to multiversal chaos.",
+    "streaming": {
+      "platform": "Disney+",
+      "type": "Streaming Channels"
+    },
+    "actions": {
+      "watch_now": true,
+      "download_link": "./assets/images/spiderman.png",
+      "share": true
+    }
+  },
+  {
+    "title": "The Lord of the Rings: The Return of the King",
+    "year": 2003,
+    "duration": "201 min",
+    "rating": 9.0,
+    "quality": "4K",
+    "image": "./assets/images/lotr-return.png",
+    "details_page": "./lotr-return-details.html",
+    "trailer": "https://www.youtube.com/watch?v=r5X-hFf6Bwo",
+    "category": "Movie",
+    "genres": ["Adventure", "Drama", "Fantasy"],
+    "storyline": "Gandalf and Aragorn lead the final battle against Sauron's forces, while Frodo nears Mount Doom.",
+    "streaming": {
+      "platform": "Amazon Prime",
+      "type": "Streaming Channels"
+    },
+    "actions": {
+      "watch_now": true,
+      "download_link": "./assets/images/lotr-return.png",
+      "share": true
+    }
+  },
+  {
+    "title": "Stranger Things",
+    "year": 2016,
+    "seasons": 4,
+    "episodes": 34,
+    "rating": 8.7,
+    "quality": "4K",
+    "image": "./assets/images/stranger-things.png",
+    "details_page": "./stranger-things-details.html",
+    "trailer": "https://www.youtube.com/watch?v=b9EkMc79ZSU",
+    "category": "TV Series",
+    "genres": ["Drama", "Fantasy", "Horror"],
+    "storyline": "A group of kids uncover a government experiment and supernatural forces in their small town.",
+    "streaming": {
+      "platform": "Netflix",
+      "type": "Streaming Series"
+    },
+    "actions": {
+      "watch_now": true,
+      "download_link": "./assets/images/stranger-things.png",
+      "share": true
+    }
+  },
+  {
+    "title": "Game of Thrones",
+    "year": 2011,
+    "seasons": 8,
+    "episodes": 73,
+    "rating": 9.2,
+    "quality": "4K",
+    "image": "./assets/images/got.png",
+    "details_page": "./got-details.html",
+    "trailer": "https://www.youtube.com/watch?v=KPLWWIOCOOQ",
+    "category": "TV Series",
+    "genres": ["Action", "Adventure", "Drama"],
+    "storyline": "Nine noble families wage war against each other to claim the Iron Throne of Westeros.",
+    "streaming": {
+      "platform": "HBO Max",
+      "type": "Streaming Series"
+    },
+    "actions": {
+      "watch_now": true,
+      "download_link": "./assets/images/got.png",
+      "share": true
+    }
+  },
+  {
+    "title": "Breaking Bad",
+    "year": 2008,
+    "seasons": 5,
+    "episodes": 62,
+    "rating": 9.5,
+    "quality": "HD",
+    "image": "./assets/images/breaking-bad.png",
+    "details_page": "./breaking-bad-details.html",
+    "trailer": "https://www.youtube.com/watch?v=HhesaQXLuRY",
+    "category": "TV Series",
+    "genres": ["Crime", "Drama", "Thriller"],
+    "storyline": "A high school chemistry teacher turned methamphetamine producer partners with a former student.",
+    "streaming": {
+      "platform": "Netflix",
+      "type": "Streaming Series"
+    },
+    "actions": {
+      "watch_now": true,
+      "download_link": "./assets/images/breaking-bad.png",
+      "share": true
+    }
+  },
+  {
+    "title": "The Mandalorian",
+    "year": 2019,
+    "seasons": 3,
+    "episodes": 24,
+    "rating": 8.7,
+    "quality": "4K",
+    "image": "./assets/images/mandalorian.png",
+    "details_page": "./mandalorian-details.html",
+    "trailer": "https://www.youtube.com/watch?v=aOC8E8z_ifw",
+    "category": "TV Series",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "storyline": "A lone bounty hunter travels the outer reaches of the galaxy, protecting a mysterious child.",
+    "streaming": {
+      "platform": "Disney+",
+      "type": "Streaming Series"
+    },
+    "actions": {
+      "watch_now": true,
+      "download_link": "./assets/images/mandalorian.png",
+      "share": true
+    }
+  },
+  {
+    "title": "Sherlock",
+    "year": 2010,
+    "seasons": 4,
+    "episodes": 13,
+    "rating": 9.1,
+    "quality": "HD",
+    "image": "./assets/images/sherlock.png",
+    "details_page": "./sherlock-details.html",
+    "trailer": "https://www.youtube.com/watch?v=xK7S9mrFWL4",
+    "category": "TV Series",
+    "genres": ["Crime", "Drama", "Mystery"],
+    "storyline": "A modern-day adaptation of Sherlock Holmes and Dr. Watson solving crimes in London.",
+    "streaming": {
+      "platform": "BBC iPlayer",
+      "type": "Streaming Series"
+    },
+    "actions": {
+      "watch_now": true,
+      "download_link": "./assets/images/sherlock.png",
+      "share": true
+    }
+  }
+]
